@@ -1,0 +1,508 @@
+body{
+    margin: 0px;
+    background-color:#91867C;
+}
+.ana{
+    position: relative;
+   padding-bottom: 0px;
+}
+.nav{
+    transition: 0.7s;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+ .nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #BDB7B7;
+    transition: 0.5s;
+    padding-bottom: 5px;
+    color: #BDB7B7;
+}
+.nav ul li:hover{
+     transform: translateX(10px);
+}
+.nav ul li{
+       transition: 0.7s;
+}
+.nav{
+    background-color:#474747;
+    position: fixed;
+    left: 0px;
+    width: 100%;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    background-color:#474747;
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+    left: 0px;
+    color: white;
+}
+
+
+
+i{
+    margin-right: 5px;
+}
+.nav ul li .urunler{
+display: none ;
+position:absolute;
+width: 120px;
+height:80px;
+left: -40px;
+top:11px;
+transition: 0.5s;
+background-color: #474747;
+border-radius: 15px;
+transition: 0.5s;
+}
+.nav ul li .urunler li{
+    margin-top: 10px;
+    
+}
+
+.nav ul li:hover .urunler{
+    display:block;
+}
+#foto1{
+   width: 1100px;
+   height: 200px;
+    position:absolute;
+    object-fit: contain;
+    margin-left: 70px;
+
+}
+#foto2{
+    width: 1100px;
+   height: 200px;
+    position:absolute;
+    object-fit: contain;
+    margin-left:-320px;
+}
+#foto3{
+    width: 1100px;
+   height: 200px;
+    position:absolute;
+    object-fit: contain;
+    margin-left:460px;
+}
+
+.section{
+    width: 100%;
+    height: 200px;
+  margin-top: 39px;
+}
+.aside{
+    background-color: #474747;
+    width: 300px;
+    height: 539.7px;
+    
+    right: 0px;
+    margin-top: 39.1px;
+    position: fixed;
+}
+#logo{
+    width:300px;
+    height: 200px;
+}
+#tanitim{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+#ust_logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    border-radius: 100%;
+    transition: 0.7s;
+    box-shadow:0 0 20px #474747;
+}
+#ust_logo:hover{
+    opacity: 0.5;
+}
+.arama{
+    height: 5px;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    right: 0px;
+    margin: 0px;
+}
+.arama input{
+    height:45px;
+    width: 200px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    box-shadow: 0 0 20px #474747;
+}
+.arama input{
+    outline: none;
+}
+.hakkimizda{
+    width: 750px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content:center;
+    display: flex;
+    margin-left: 250px;
+    margin-top: 50px;
+    background-color: #474747;
+    border-radius: 50px;
+    
+    
+}
+#baslaA{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.basla{
+    width: 155px;
+    height: 30px;
+    border: 1px solid #474747;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-radius: 50px;
+    margin-left: 550px;
+    transition: 0.7s;
+    background-color: #474747;
+}
+.basla:hover{
+    opacity: 0.5;
+}
+.info{
+    width: 250px;
+    height: 300px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+.yorum1{
+    position: absolute;
+    width: 335px;
+    height: 80px;
+    background-color: #474747;
+    margin-left: 400px;
+    margin-top: 120px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.yorumBas{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    background-color: #474747;
+    margin-left: 440px;
+    margin-top: 50px;
+    border-radius: 40px;
+    text-align:center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+.yorum2{
+    position: absolute;
+    width: 335px;
+    height: 80px;
+    background-color: #474747;
+    margin-left: 400px;
+    margin-top: 220px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.yorum3{
+    position: absolute;
+    width: 335px;
+    height: 80px;
+    background-color: #474747;
+    margin-left: 400px;
+    margin-top: 320px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.konum{
+     width: 300px;
+    height: 300px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 800px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;
+}
+#konumdur{
+    width: 280px;
+    height: 200px;
+    border-radius: 30px;
+}
+#konum2{
+    text-decoration: none;
+    color:blue;
+    font-family:Arial, Helvetica, sans-serif ;
+    transition: 0.2s;
+}
+#konum2:hover{
+    color: red;
+    text-decoration:underline;
+}
+.urun1{
+    width: 300px;
+    height: 350px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;  
+    transition: 0.5s;
+}
+.urun1:hover{
+    transform:scale(1.1);
+}
+.panFoto{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.al-a{
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.al-buton{
+    width: 100px;
+    margin-left: 85px;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.al-buton:hover{
+    opacity: 0.5;
+}
+.urun2{
+    width: 300px;
+    height: 350px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;  
+    transition: 0.5s;
+}
+.urun2:hover{
+    transform:scale(1.1);
+}
+.urun3{
+    width: 300px;
+    height: 350px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 100px;
+    margin-left:800px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;  
+    transition: 0.5s;
+}
+.urun3:hover{
+    transform:scale(1.1);
+}
+.pantolon{
+    position: absolute;
+    width: 450px;
+    height: 150px;
+    background-color: #474747;
+    margin-left: 400px;
+    margin-top: 120px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.gömlek{
+    position: absolute;
+    width: 450px;
+    height: 150px;
+    background-color: #474747;
+    margin-left: 400px;
+    margin-top: 320px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.gomFoto{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+.Pgit{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Ggit{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.urun4{
+    width: 300px;
+    height: 350px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;  
+    transition: 0.5s;
+}
+.urun5{
+    width: 300px;
+    height: 350px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 450px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;  
+    transition: 0.5s;
+}
+.urun6{
+    width: 300px;
+    height: 350px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 800px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;  
+    transition: 0.5s;
+}
+.urun4:hover{
+    transform:scale(1.1);
+}
+.urun5:hover{
+    transform:scale(1.1);
+}
+.urun6:hover{
+    transform:scale(1.1);
+}
+.iletisim-bilgileri{
+    width: 450px;
+    height: 250px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 100px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;
+
+}
+.iletisim-form{
+    width: 450px;
+    height: 250px;
+    background-color:#474747;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 700px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 40px;
+
+}
+.form{
+    position: absolute;
+    right:50%;
+    top: 250%;
+    background-color: #474747;
+    width: 250px;
+    height: 370px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+}
+.kutu label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kutu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+.form input,.form textarea,.form select{
+ width: 150px;
+ height: 20px;
+}
+button{
+    background-color: #474747;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+button:hover{
+    opacity: 0.5;
+}
